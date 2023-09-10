@@ -8,6 +8,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "clean": "rm dist/bundle.js",
     "install-dep": "npm i --no-bin-links",
     "build": "webpack",
