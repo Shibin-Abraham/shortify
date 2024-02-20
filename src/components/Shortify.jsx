@@ -3,18 +3,6 @@ import Form from "/src/components/Form.jsx"
 import Item from "/src/components/Item.jsx"
 
 function Shortify(){
- /* const initialData=[
-    {
-      id:1, 
-      original_link:"https://www.shibin.abraham.me", 
-      short_link:"https://Short/WxtRsjd"
-    },
-    {
-      id: 2,
-      original_link: "https://www.shibin.abraham.me",
-      short_link: "https://Short/WxtRsjd"
-    },
-    ]*/
     const [urls, setUrls] = useState([])
     
     async function fetchUrl(link){
